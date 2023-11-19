@@ -17,8 +17,7 @@
             "command1" : "git config --global alias.ci commit",
             "command2" : "git config --global alias.co checkout",
             "command3" : "git config --global alias.br branch",
-            "command4" : "git config --global alias.st status",
-            "command5" : "git config --global alias.ci commit"
+            "command4" : "git config --global alias.st status"
         },
         "step4" : {
             "command1" : "cd /home/feng/",
