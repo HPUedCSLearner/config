@@ -1,8 +1,9 @@
 {
     "configSwith" : {
         "step1" : "OFF",
-        "step2" : "ON",
-        "step3" : "ON"
+        "step2" : "OFF",
+        "step3" : "OFF",
+        "step4" : "ON"
     },
     "configSteps" : {
         "step1" : {
@@ -18,6 +19,13 @@
             "command3" : "git config --global alias.br branch",
             "command4" : "git config --global alias.st status",
             "command5" : "git config --global alias.ci commit"
+        },
+        "step4" : {
+            "command1" : "cd /home/feng/",
+            "command2" : "pwd",
+            "command3" : "cd /usr/local",
+            "command4" : "pwd",
+            "command5" : "echo $?"
         }
     }
 }
