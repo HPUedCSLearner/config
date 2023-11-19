@@ -1,0 +1,23 @@
+{
+    "configSwith" : {
+        "step1" : "OFF",
+        "step2" : "ON",
+        "step3" : "ON"
+    },
+    "configSteps" : {
+        "step1" : {
+            "command1" : "sudo passwd"
+        },
+        "step2" : {
+            "command2" : "sudo apt install vim build-essential ",
+            "command3" : "sudo apt install htop openssh-server cmake git net-tools curl"
+        },
+        "step3" : {
+            "command1" : "git config --global alias.ci commit",
+            "command2" : "git config --global alias.co checkout",
+            "command3" : "git config --global alias.br branch",
+            "command4" : "git config --global alias.st status",
+            "command5" : "git config --global alias.ci commit"
+        }
+    }
+}
