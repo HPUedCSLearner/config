@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# 请使用 source OR . 执行此脚本，否则不会生效
+
 echo '===Chose a llvm env you needed==='
 echo '[1] -> llvm-15.0.6-Release Env'
 echo '[2] -> llvm-7.0.0-Release Env'
@@ -41,7 +43,7 @@ case $aNum in
         export PATH=/home/feng/llvm-src/llvm-project-llvmorg-5.0.0/llvm/build-debug/bin:$PATH
     ;;
 
-    *) echo 'You are choosed none of llvm env'
+    *) echo 'You are Choosed none of llvm env'
     ;;
     
 esac
