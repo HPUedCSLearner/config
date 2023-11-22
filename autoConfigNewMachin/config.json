@@ -10,7 +10,7 @@
             "command1" : "sudo passwd"
         },
         "step2" : {
-            "command2" : "sudo apt install vim build-essential ",
+            "command2" : "sudo apt install vim build-essential lm-sensors python3-pip",
             "command3" : "sudo apt install htop openssh-server cmake git net-tools curl"
         },
         "step3" : {
